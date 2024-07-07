@@ -1,0 +1,12 @@
+entryPoints:
+  web:
+    address: ":80"
+  proxy:
+    address: ":8090"
+
+providers:
+  docker:
+    exposedByDefault: false
+
+api:
+  insecure: true
